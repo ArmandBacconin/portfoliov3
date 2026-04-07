@@ -1,0 +1,32 @@
+{
+    "id": "java",
+    "title": "Visualisation de Vols",
+    "image": "img/java.png",
+    "tags": [
+      {"label": "BUT1", "bg": "#2563eb33", "color": "#60a5fa"},
+      {"label": "Java", "bg": "rgba(255,255,255,0.1)", "color": "white"}
+    ],
+    "shortDescription": "Application Java utilisant des algorithmes de graphes pour visualiser et gérer des vols aériens en France.",
+    "detailedDescription": "Application Java permettant de visualiser et de gérer des vols d'avions en France à l'aide d'algorithmes de coloration de graphes.",
+    "skills": [
+      {
+        "category": "Réaliser",
+        "color": "#60a5fa",
+        "items": [
+          "AC11.01 | Implémenter des conceptions simples",
+          "AC11.02 | Élaborer des conceptions simples",
+          "AC11.03 | Faire des essais et évaluer leurs résultats en regard des spécifications",
+          "AC11.04 | Développer des interfaces utilisateurs"
+        ]
+      },
+      {
+        "category": "Conduire",
+        "color": "#818cf8",
+        "items": [
+          "AC15.01 | Appréhender les besoins du client et de l'utilisateur",
+          "AC15.02 | Mettre en place les outils de gestion de projet",
+          "AC15.03 | Identifier les acteurs et les différentes phases d'un cycle de développement."
+        ]
+      }
+    ]
+  }

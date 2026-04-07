@@ -1,0 +1,42 @@
+{
+    "id": "2fa",
+    "title": "Client/Serveur C sécurisé",
+    "image": "img/2fa.jpg",
+    "tags": [
+      {"label": "BUT2", "bg": "#2563eb33", "color": "#60a5fa"},
+      {"label": "Sécurité", "bg": "rgba(255,255,255,0.1)", "color": "white"}
+    ],
+    "shortDescription": "Création de scripts C pour gérer un client et un serveur, sécurisés par double authentification et hachage.",
+    "detailedDescription": "Création de scripts C pour gérer un client et un serveur, sécurisés par double authentification et hachage (SHA-256).",
+    "skills": [
+      {
+        "category": "Réaliser",
+        "color": "#60a5fa",
+        "items": [
+          "CE1.01 | en respectant les besoins décrits par le client",
+          "CE1.03 | en appliquant les principes algorithmiques",
+          "AC11.01 | Implémenter des conceptions simples",
+          "AC21.03 | Adopter de bonnes pratiques de conception et de programmation"
+        ]
+      },
+      {
+        "category": "Optimiser",
+        "color": "#4ade80",
+        "items": [
+          "CE2.03 | en s’appuyant sur des schémas de raisonnement",
+          "CE2.04 | en justifiant les choix et validant les résultats",
+          "AC12.01 | Analyser un problème avec méthode",
+          "AC22.03 | Comprendre les enjeux et moyens de sécurisation des données et du code"
+        ]
+      },
+      {
+        "category": "Conduire",
+        "color": "#818cf8",
+        "items": [
+          "CE5.04 | en adoptant une démarche proactive, créative et critique",
+          "AC15.01 | Appréhender les besoins du client et de l'utilisateur",
+          "AC25.04 | Définir et mettre en œuvre une démarche de suivi de projet"
+        ]
+      }
+    ]
+  }

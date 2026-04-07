@@ -1,0 +1,44 @@
+{
+    "id": "mco",
+    "title": "Maintenance des équipements (MCO)",
+    "image": "img/MCO.png",
+    "tags": [
+      {"label": "Alternance", "bg": "#16a34a33", "color": "#4ade80"},
+      {"label": "Réseau", "bg": "rgba(255,255,255,0.1)", "color": "white"}
+    ],
+    "shortDescription": "Mises à jour Windows, BIOS, pilotes, et applications métier en fonction des besoins du parc informatique.",
+    "detailedDescription": "Maintenance régulière : mises à jour Windows, BIOS, pilotes et applications métier, en fonction des besoins utilisateurs ou alertes WSUS.",
+    "skills": [
+      {
+        "category": "Optimiser",
+        "color": "#4ade80",
+        "items": [
+          "CE2.01 | en formalisant et modélisant des situations complexes",
+          "CE2.03 | en s’appuyant sur des schémas de raisonnement",
+          "AC12.01 | Analyser un problème avec méthode"
+        ]
+      },
+      {
+        "category": "Administrer",
+        "color": "#f87171",
+        "items": [
+          "CE3.01 | en sécurisant le système d’information",
+          "CE3.03 | en appliquant les normes en vigueur et les bonnes pratiques architecturales",
+          "CE3.02 | en offrant une qualité de service optimale",
+          "CE3.04 | en assurant la continuité d'activité",
+          "AC13.01 | Identifier les composants d’un système numérique",
+          "AC13.04 | Configurer un poste de travail dans un réseau d’entreprise",
+          "AC33.04 | Déployer et maintenir un réseau d’organisation"
+        ]
+      },
+      {
+        "category": "Collaborer",
+        "color": "#f472b6",
+        "items": [
+          "CE6.01 | en inscrivant sa démarche au sein d’une équipe pluridisciplinaire",
+          "CE6.04 | en développant une communication efficace et collaborative",
+          "AC26.04 | Rendre compte de son activité professionnelle"
+        ]
+      }
+    ]
+  }

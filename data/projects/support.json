@@ -1,0 +1,40 @@
+{
+    "id": "support",
+    "title": "Support Utilisateur",
+    "image": "img/support.png",
+    "tags": [
+      {"label": "Alternance", "bg": "#16a34a33", "color": "#4ade80"},
+      {"label": "Support", "bg": "rgba(255,255,255,0.1)", "color": "white"}
+    ],
+    "shortDescription": "Traitement de tickets, diagnostics et interventions à distance et sur site pour la résolution d'incidents.",
+    "detailedDescription": "Traitement de tickets via SimplyDesk : diagnostics, interventions sur site ou à distance. Identification des problèmes récurrents (réseau, matériel, comptes). Apprentissage progressif des résolutions techniques pour gagner en autonomie.",
+    "skills": [
+      {
+        "category": "Administrer",
+        "color": "#f87171",
+        "items": [
+          "CE3.01 | en sécurisant le système d’information",
+          "CE3.04 | en assurant la continuité d'activité",
+          "AC13.02 | Utiliser les fonctionnalités de base d’un système multitâches / multiutilisateurs",
+          "AC13.04 | Configurer un poste de travail dans un réseau d’entreprise"
+        ]
+      },
+      {
+        "category": "Gérer",
+        "color": "#eab308",
+        "items": [
+          "CE4.01 | en respectant les réglementations sur la vie privée",
+          "CE4.02 | en respectant les enjeux économiques, sociétaux et écologiques"
+        ]
+      },
+      {
+        "category": "Conduire",
+        "color": "#818cf8",
+        "items": [
+          "CE5.04 | en adoptant une démarche proactive, créative et critique",
+          "AC15.01 | Appréhender les besoins du client et de l'utilisateur",
+          "AC25.01 | Identifier les processus présents dans une organisation"
+        ]
+      }
+    ]
+  }

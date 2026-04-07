@@ -1,0 +1,42 @@
+{
+    "id": "ocs",
+    "title": "Déploiement Serveur OCS",
+    "image": "img/ocs.png",
+    "tags": [
+      {"label": "Alternance", "bg": "#16a34a33", "color": "#4ade80"},
+      {"label": "Système", "bg": "rgba(255,255,255,0.1)", "color": "white"}
+    ],
+    "shortDescription": "Mise en place d’un serveur OCS Inventory pour automatiser l’inventaire matériel et logiciel du parc.",
+    "detailedDescription": "Mise en place d’un serveur OCS Inventory pour automatiser l’inventaire matériel et logiciel du parc informatique.",
+    "skills": [
+      {
+        "category": "Réaliser",
+        "color": "#60a5fa",
+        "items": [
+          "CE1.01 | en respectant les besoins décrits par le client",
+          "CE1.06 | en choisissant les ressources techniques appropriées",
+          "AC11.03 | Faire des essais et évaluer leurs résultats en regard des spécifications",
+          "AC21.01 | Élaborer et implémenter les spécifications fonctionnelles"
+        ]
+      },
+      {
+        "category": "Administrer",
+        "color": "#f87171",
+        "items": [
+          "CE3.01 | en sécurisant le système d’information",
+          "CE3.03 | en appliquant les normes en vigueur et les bonnes pratiques",
+          "AC23.02 | Utiliser des serveurs et services réseaux virtualisés",
+          "AC33.02 | Configurer un serveur et des services réseaux de manière avancée"
+        ]
+      },
+      {
+        "category": "Collaborer",
+        "color": "#f472b6",
+        "items": [
+          "CE6.01 | en inscrivant sa démarche au sein d’une équipe pluridisciplinaire",
+          "AC26.04 | Rendre compte de son activité professionnelle",
+          "AC36.04 | Accompagner le management de projet informatique"
+        ]
+      }
+    ]
+  }

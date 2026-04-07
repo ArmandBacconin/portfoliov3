@@ -1,0 +1,53 @@
+version: '3.8'
+
+services:
+  website:
+    image: nginx:alpine
+    container_name: portfolio_website
+    restart: unless-stopped
+    volumes:
+      # Utilisation d'un chemin relatif '.' pour que Portainer mappe directement le dossier du repo Git
+      - ./:/usr/share/nginx/html
+    networks:
+      - proxy  
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.portfolio.rule=Host(`portfolio.srv-armand.duckdns.org`)"
+      - "traefik.http.routers.portfolio.entrypoints=websecure"
+      - "traefik.http.routers.portfolio.tls.certresolver=myresolver"
+      - "traefik.http.routers.portfolio.middlewares=crowdsec-bouncer"
+
+  n8n:
+    image: n8nio/n8n
+    container_name: portfolio_n8n
+    restart: unless-stopped
+    environment:
+      - N8N_HOST=n8n.srv-armand.duckdns.org
+      - N8N_PORT=5678
+      - N8N_PROTOCOL=https
+      - WEBHOOK_URL=https://n8n.srv-armand.duckdns.org/
+      - GENERIC_TIMEZONE=Europe/Paris
+      
+      - DB_SQLITE_POOL_SIZE=5         
+      - N8N_RUNNERS_ENABLED=true       
+      - N8N_GIT_NODE_DISABLE_BARE_REPOS=true 
+    volumes:
+      - n8n_data:/home/node/.n8n
+      # Pareil, chemin relatif pour accéder aux fichiers du portfolio depuis n8n
+      - ./:/home/node/portfolio-files
+    networks:
+      - proxy 
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.n8n.rule=Host(`n8n.srv-armand.duckdns.org`)"
+      - "traefik.http.routers.n8n.entrypoints=websecure"
+      - "traefik.http.routers.n8n.tls.certresolver=myresolver"
+      - "traefik.http.services.n8n.loadbalancer.server.port=5678"
+      - "traefik.http.routers.n8n.middlewares=crowdsec-bouncer"
+
+networks:
+  proxy:
+    external: true
+
+volumes:
+  n8n_data:

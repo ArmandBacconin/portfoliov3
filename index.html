@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de Armand Bacconin - BUT Informatique, Réseaux et Systèmes">
+    <title>Armand Bacconin - Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    
+    <nav class="navbar">
+        <div class="logo">Armand<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="#hero">Accueil</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#skills">Compétences</a></li>
+            <li><a href="#projects">Projets</a></li>
+        </ul>
+    </nav>
+
+    <header id="hero" class="section hero-section">
+        <div class="hero-content fade-in-up">
+            <p class="greeting">Bonjour, je suis Armand Bacconin</p>
+            <h1>Bienvenue sur mon <span class="highlight">Portfolio</span></h1>
+            <p class="tagline">Passionné d'informatique, spécialisé dans le réseau, les systèmes et la sécurité. Découvrez mon parcours, mes réalisations et mes compétences techniques.</p>
+            <div class="cta-group">
+                <a href="#projects" class="btn btn-primary">Mes projets</a>
+                <a href="#contact" class="btn btn-outline">Contact</a>
+            </div>
+        </div>
+        <div class="hero-image fade-in-left">
+            <div class="glass-card portrait-container" style="padding: 10px; display: flex; justify-content: center; align-items: center; border-radius: 20px;">
+                <img src="img/moi.jpg" alt="Photo de profil Armand Bacconin" style="width: 100%; height: auto; border-radius: 15px; max-width: 300px; aspect-ratio: 1/1; object-fit: cover;">
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="section-header fade-in-up">
+            <h2>À <span class="highlight">Propos</span></h2>
+            <p>Mon parcours étudiant et professionnel</p>
+        </div>
+        <div class="about-grid">
+            <div class="glass-card fade-in-up">
+                <h3>Qui suis-je ?</h3>
+                <p>Étudiant en BUT Informatique (DACS) à l'Université Lyon 1, avec une spécialisation en réseaux, systèmes et sécurité. Actuellement en alternance à la Communauté de Commune de la Vallée du Garon, j'interviens sur la maintenance des équipements, la gestion des droits et le support utilisateur.</p>
+            </div>
+            <div class="glass-card fade-in-up delay-1">
+                <h3>Mes Formations</h3>
+                <p><strong>2023 - Auj :</strong> BUT Informatique (Lyon 1)<br>
+                <strong>Nov 2024 - Auj :</strong> Alternant Service Informatique (CCVG)<br>
+                <strong>2022 :</strong> Stage Restructuration site web (La Coworquie)<br>
+                <strong>2023 :</strong> Baccalauréat Spé Mathématiques et Informatique</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+         <div class="section-header fade-in-up">
+            <h2>Mes <span class="highlight">Compétences</span></h2>
+            <p>Savoir-faire techniques développés à l'école et en entreprise (<a href="pdf/referenciel_competences.pdf" target="_blank" style="color:var(--primary);text-decoration:underline;">Référentiel</a>)</p>
+        </div>
+        <div class="skills-grid">
+            <!-- Systèmes & Réseaux -->
+            <div class="skill-card fade-in-up">
+                <div class="skill-icon">🖥️</div>
+                <h3>Systèmes & Réseaux</h3>
+                <p>Maintenance (MCO), gestion des droits d'accès (AD, Office 365, VPN), déploiement de postes et serveurs (OCS Inventory, NAS, Sécurité réseau).</p>
+            </div>
+            <!-- Dev & Scripting -->
+            <div class="skill-card fade-in-up delay-1">
+                <div class="skill-icon">💻</div>
+                <h3>Développement & Scripting</h3>
+                <p>Client/Serveur C sécurisé (2FA), applications Java (Graphes), PHP (Réseau Social web). Qualité et documentation du code.</p>
+            </div>
+            <!-- Data & Projets -->
+            <div class="skill-card fade-in-up delay-2">
+                <div class="skill-icon">📊</div>
+                <h3>DBS & Projets</h3>
+                <p>Bases de données relationnelles Oracle, Visualisation sous Power BI, Suivi de projet, support utilisateur et résolution de tickets.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="section-header fade-in-up">
+            <h2>Derniers <span class="highlight">Projets</span></h2>
+            <p>Découvrez mes réalisations en entreprise et à l'école</p>
+        </div>
+        <div class="projects-grid" id="projects-container">
+            <!-- Les projets seront injectés ici par main.js -->
+        </div>
+    </section>
+
+    <footer id="contact" class="footer">
+        <div class="footer-content">
+            <div class="footer-left fade-in-up">
+                <h2>Me <span class="highlight">Contacter</span></h2>
+                <p>Vous êtes intéressé par mon profil ? N'hésitez pas à échanger avec moi.</p>
+                <p style="margin-top: 10px; color: #a1a1aa;">📍 Lyon, France <br> 📱 +33 7 50 67 32 56</p>
+                <a href="mailto:armand.bacconin@gmail.com" class="btn btn-primary mt-4">M'envoyer un email</a>
+            </div>
+            <div class="footer-right fade-in-up delay-1">
+                 <h3>Réseaux</h3>
+                 <ul>
+                     <li><a href="https://fr.linkedin.com/in/armand-bacconin" target="_blank">LinkedIn</a></li>
+                     <li><a href="https://github.com/Tamanrasse" target="_blank">GitHub</a></li>
+                 </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Armand Bacconin - Portfolio.</p>
+        </div>
+    </footer>
+
+    <!-- Structure de la Modale Projets -->
+    <div id="project-modal" class="modal hidden">
+        <div class="modal-backdrop" onclick="closeModal()"></div>
+        <div class="modal-content glass-card">
+            <button class="close-btn" onclick="closeModal()">&times;</button>
+            <div class="modal-header">
+                <img id="modal-image" src="" alt="Image projet" style="width: 100%; height: 200px; object-fit: contain; border-radius: 12px; margin-bottom: 20px; background: #fff1; padding: 10px;">
+                <h2 id="modal-title" style="margin-bottom: 10px;"></h2>
+                <div id="modal-tags" class="project-tags"></div>
+            </div>
+            <div class="modal-body" style="max-height: 50vh; overflow-y: auto; padding-right: 10px;">
+                <p id="modal-desc" style="color: var(--text-muted); margin-bottom: 25px;"></p>
+                <h3 style="margin-bottom: 15px; font-size: 1.2rem;">Compétences mobilisées :</h3>
+                <div id="modal-skills" class="skills-list" style="display: flex; flex-direction: column; gap: 20px;"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script -->
+    <script src="main.js"></script>
+</body>
+</html>

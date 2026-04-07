@@ -1,0 +1,31 @@
+{
+    "id": "nas",
+    "title": "Projet NAS : Sécurité 2FA",
+    "image": "img/nas.jpg",
+    "tags": [
+      {"label": "Alternance", "bg": "#16a34a33", "color": "#4ade80"},
+      {"label": "Sécurité", "bg": "rgba(255,255,255,0.1)", "color": "white"}
+    ],
+    "shortDescription": "Cartographie, procédures, alertes par email et implémentation d'une authentification 2FA sur un stockage.",
+    "detailedDescription": "Cartographie, procédures, alertes mail et mise en place d'une d'authentification 2FA pour sécuriser un environnement de stockage réseau.",
+    "skills": [
+      {
+        "category": "Administrer",
+        "color": "#f87171",
+        "items": [
+          "CE3.01 | en sécurisant le système d’information",
+          "CE3.03 | en appliquant les normes en vigueur et les bonnes pratiques architecturales et de sécurité",
+          "AC23.03 | Sécuriser les services et données d’un système",
+          "AC33.03 | Appliquer une politique de sécurité au niveau de l’infrastructure"
+        ]
+      },
+      {
+        "category": "Optimiser",
+        "color": "#4ade80",
+        "items": [
+          "CE2.04 | en justifiant les choix et validant les résultats",
+          "AC12.01 | Analyser un problème avec méthode"
+        ]
+      }
+    ]
+  }
