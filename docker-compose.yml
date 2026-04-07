@@ -7,7 +7,7 @@ services:
     restart: unless-stopped
     volumes:
       # Utilisation d'un chemin relatif '.' pour que Portainer mappe directement le dossier du repo Git
-      - ./:/usr/share/nginx/html
+      - /home/armand/docker/portfolio/site:/usr/share/nginx/html
     networks:
       - proxy  
     labels:
@@ -33,8 +33,7 @@ services:
       - N8N_GIT_NODE_DISABLE_BARE_REPOS=true 
     volumes:
       - n8n_data:/home/node/.n8n
-      # Pareil, chemin relatif pour accéder aux fichiers du portfolio depuis n8n
-      - ./:/home/node/portfolio-files
+      - /home/armand/docker/portfolio/site:/home/node/portfolio-files
     networks:
       - proxy 
     labels:
